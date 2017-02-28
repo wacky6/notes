@@ -1,7 +1,7 @@
 Notes / Ops
 ===
 
-### SS + 防火墙
+## SS + 防火墙
 务必隔离ss-server对本机网络接口的访问。否则ss用户具备和本机相同的访问特征。（eg：用来访问监听在localhost的数据库）
 
 ##### 起因：tinc组overlay，与ss-server同时使用。ss用户可访问tinc内的主机
