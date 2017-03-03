@@ -32,8 +32,8 @@ tty复用、ssh会话维持
 | `... <Ent>`  | 结束选择要复制的内容，回到正常模式  |
 | `<Arrow-Key>`| 移动光标                       |
 | `]`          | 粘贴刚才选中的内容               |
-| `Ctrl + U/D` | 上/下滚屏 （ _U_p / _D_own ）|
-| `Ctrl + B/F` | 光标上/下移动一屏 （ _B_ack / _F_orward ）|
+| `Ctrl + U/D` | 上/下滚屏 （ **U**p / **D**own ）|
+| `Ctrl + B/F` | 光标上/下移动一屏 （ **B**ack / **F**orward ）|
 
 
 
