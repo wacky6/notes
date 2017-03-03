@@ -15,7 +15,7 @@ atob( btoa('报错') )
 
 1. payload在JSON中随token返回
 2. 第三方base64库，`base64 -> bytes -> string`。参见[base64-js](https://github.com/beatgammit/base64-js)、[stackoverflow](http://stackoverflow.com/questions/17191945/conversion-between-utf-8-arraybuffer-and-string)
-
+3. 使用`jwt-decode`：`jsonwebtoken`仅适用于node
 
 
 ## flex
