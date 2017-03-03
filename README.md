@@ -6,6 +6,7 @@ wacky6's notes to become a `!weaker` developer
 
 * [Web Dev](./list/web.md)
 * [Ops](./list/ops.md)
+* [Screen](./list/screen.md)
 
 More TBA
 
