@@ -17,7 +17,9 @@ atob( btoa('报错') )
 2. 第三方base64库，`base64 -> bytes -> string`。参见[base64-js](https://github.com/beatgammit/base64-js)、[stackoverflow](http://stackoverflow.com/questions/17191945/conversion-between-utf-8-arraybuffer-and-string)
 
 
+
 ## flex
 
 设置内部元素的`flex-shrink`，否则小屏幕下会内部元素被压缩（显示不全）
+
 
