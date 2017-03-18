@@ -24,3 +24,13 @@ SS为应用层转发，server代替客户端请求目标IP:PORT，用户的身�
 三层VPN需要配置FORWARD（和NAT）表才能工作（kernel默认不在接口间转发数据包）。
 
 
+## Docker: docker0 IP地址
+追加dockerd启动选项：`--bip=addr/prefix`
+
+##### NOTE:
+
+官方文档写的是`--bip=CIDR`，但这个CIDR和`--fixed-cidr`的CIDR含义不同：
+
+* `--fixed-cidr=CIDR` 容器的IP**范围**：172.17.0.**0**/18
+* `--bip=addr/prefix` docker0接口的**IP和子网**：172.17.0.**1**/18
+
